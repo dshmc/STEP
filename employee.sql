@@ -1,10 +1,11 @@
 create table employee (
-	first_name VARCHAR(50),
-	last_name VARCHAR(50),
-	gender VARCHAR(50),
-	email VARCHAR(50),
-	date_of_birth DATE,
-	country_of_birth VARCHAR(50)
+	id BIGSERIAL NOT NULL PRIMARY KEY,
+	first_name VARCHAR(50) NOT NULL, 
+	last_name VARCHAR(50) NOT NULL,
+	gender VARCHAR(10) NOT NULL,
+	email VARCHAR(150),
+	date_of_birth DATE NOT NULL,
+	country_of_birth VARCHAR(50) NOT NULL
 );
 insert into employee (first_name, last_name, gender, email, date_of_birth, country_of_birth) values ('Brannon', 'O''Deoran', 'Male', 'bodeoran0@spotify.com', '2020-08-28', 'China');
 insert into employee (first_name, last_name, gender, email, date_of_birth, country_of_birth) values ('Clerissa', 'Tallach', 'Female', 'ctallach1@blogger.com', '2019-12-11', 'China');
