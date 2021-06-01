@@ -1,0 +1,16 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+img {
+    float: right; 
+    margin: 15 0 10 10
+}
+
+.figcaption {font-size:12px ;
+    font-style: italic;
+    text-align: center
+}
+
